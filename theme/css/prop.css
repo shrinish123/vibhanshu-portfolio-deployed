@@ -1,0 +1,58 @@
+.main {
+    position: absolute;
+    top: 5vh;
+    margin-left: 3vw;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    background-color: red;
+
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #5481f3, #ee2e64);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.subheading_1_title , .subheading_2_title{
+    font-size: 2rem;
+    font-weight: 20;
+}
+
+.subheading_1_content , .subheading_2_content{
+    margin-left: 4vw;
+    margin-top: 4vh;
+}
+
+.subheading_2_title{
+    margin-top: 8vh;
+}
+
+.overview_heading,
+.proposal_heading,
+.impact_heading,
+.background_heading {
+    font-size: 1.8rem;
+    margin-top: 2vh;
+    margin-bottom: 1.3vh;
+    /* color: aqua; */
+}
+
+.overview_content,
+.proposal_content,
+.impact_content,
+.background_content {
+    font-size: 1.2rem;
+    /* font-weight: ; */
+}
